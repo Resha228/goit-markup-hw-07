@@ -35,7 +35,7 @@ header {
 .container {
   padding: 0px 15px;
   margin: 0 auto;
-  width: 1158px;
+  width: 100%;
 }
 .header .container {
   display: flex;
@@ -212,21 +212,14 @@ header {
 }
 /*----------------------------- Four Section--------------------------- */
 .four-section {
-  padding-top: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .four-section-icon {
-  background-color: #f4f4fd;
-  display: flex;
-  width: 264px;
-  height: 112px;
-  border-radius: 4px;
-  margin: 0 auto 8px;
-  align-items: center;
-  justify-content: center;
-  padding: 24px 100px;
+  display: none;
 }
 .four-section-list {
-  display: flex;
+  display: block;
   gap: 24px;
   justify-content: space-between;
   padding-left: 0;
@@ -238,23 +231,29 @@ header {
   margin: 0 auto;
 }
 .four-section-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
-  color: var(--title-color);
-  margin-top: 0;
+  text-transform: capitalize;
   margin-bottom: 8px;
+  margin-top: 0;
 }
 .four-section-text {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  width: 264px;
+  width: 100%;
   margin: 0 auto;
+  margin-bottom: 76px;
 }
+.margin {
+  margin-bottom: 0;
+}
+
 /*-----------------------What are we doing -----------------------*/
 .case {
   margin-bottom: 0;
