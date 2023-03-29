@@ -12,8 +12,19 @@
     column-gap: 24px;
     row-gap: 72px;
   }
+
   .four-section-item {
     width: calc((100% - 24px) / 2);
+  }
+  .four-section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: left;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    margin-top: 0;
   }
   .four-section-text {
     font-weight: 500;
@@ -23,5 +34,8 @@
     color: var(--text-color);
     width: 100%;
     margin: 0 auto;
+  }
+  .case {
+    display: none;
   }
 }
