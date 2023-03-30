@@ -38,4 +38,22 @@
   .case {
     display: none;
   }
+  /*--------------------- Team -------------------*/
+  .team {
+    padding: 96px;
+  }
+  .team-title {
+    margin: 0 auto;
+    margin-bottom: 74px;
+  }
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 64px;
+  }
+  .team-item {
+    width: calc((100% - 24px) / 2);
+    margin: 0 auto;
+  }
 }

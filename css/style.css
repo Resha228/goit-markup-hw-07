@@ -227,7 +227,7 @@ header {
 .four-section-item {
   list-style-type: none;
   display: block;
-  margin: 0 auto;
+  margin-top: 0 auto;
 }
 .four-section-title {
   font-weight: 700;
@@ -279,7 +279,8 @@ header {
 /*---------------------------------- Our team--------------------  */
 .team {
   background-color: #f4f4fd;
-  padding: 120px 0;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .team-title {
   font-weight: 700;
@@ -293,7 +294,7 @@ header {
 }
 .team-list {
   list-style-type: none;
-  display: flex;
+  display: block;
   gap: 24px;
   padding-left: 0;
   margin: 0 auto;
@@ -303,8 +304,9 @@ header {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% -72) / 4);
+  width: 100%;
   margin: 0 auto;
+  margin-top: 72px;
 }
 .team-item img {
   display: block;

@@ -35,7 +35,20 @@
     margin: 0 auto;
     margin-bottom: 76px;
   }
+  .margin {
+    margin-bottom: 0;
+  }
   .case {
     display: none;
+  }
+  /*----------------------------- Team ---------------------------------*/
+  .team {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 86px;
+    padding-right: 86px;
+  }
+  .team-item {
+    margin-top: 74px;
   }
 }
