@@ -83,4 +83,9 @@
     justify-content: center;
     gap: 24px;
   }
+  /* ----------------------Customers-------------------------- */
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }

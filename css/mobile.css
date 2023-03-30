@@ -51,4 +51,15 @@
   .team-item {
     margin-top: 74px;
   }
+
+  /* ------------------------------Customers---------------------- */
+  .customers {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc((100% - 16) / 2);
+  }
 }

@@ -375,8 +375,8 @@ header {
 }
 /* --------------------------- Customers-------------------------- */
 .customers {
-  padding-top: 130px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .customers-title {
   font-weight: 700;
@@ -389,6 +389,8 @@ header {
 .customers-list {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   padding-left: 0;
   justify-content: center;
   align-items: center;

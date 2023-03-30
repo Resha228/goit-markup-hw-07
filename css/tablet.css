@@ -56,4 +56,9 @@
     width: calc((100% - 24px) / 2);
     margin: 0 auto;
   }
+  /* ----------------------------Customers------------------------ */
+  .customers {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
 }
