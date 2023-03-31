@@ -61,4 +61,8 @@
     padding-top: 96px;
     padding-bottom: 96px;
   }
+  /*---------------------------- Footer ----------------------------*/
+  .footer {
+    padding: 96px 0;
+  }
 }

@@ -88,4 +88,66 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
+  /*---------------------------- Footer ----------------------------*/
+  .footer {
+    padding: 100px 0;
+  }
+  .flex {
+    display: flex;
+  }
+
+  .footer-link {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+  }
+  .footer-span {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+  }
+  .footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #e7e9fc;
+    display: flex;
+    width: 264px;
+    margin-top: 16px;
+  }
+  /*------------------------------- Social Media -----------------------*/
+  .socail-media {
+    width: 208px;
+    height: 80px;
+    margin-left: 120px;
+  }
+  .social-media-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    margin: 0 auto 16px;
+  }
+
+  .input-subs {
+    width: 264px;
+  }
+  .subs-form {
+    display: flex;
+  }
 }

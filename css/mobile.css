@@ -62,4 +62,38 @@
     flex-wrap: wrap;
     width: calc((100% - 16) / 2);
   }
+  /*---------------------------- Footer ----------------------------*/
+  .footer {
+    padding: 96px 0;
+  }
+  .flex {
+    display: block;
+    margin: 0 auto;
+  }
+  .footer-link {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  .footer-text {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  /*------------------------------- Social Media -----------------------*/
+  .socail-media {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 72px;
+  }
+  .social-media-title {
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* -------------------------Subscribe------------------------------ */
+  .subs-form {
+    display: block;
+  }
 }
