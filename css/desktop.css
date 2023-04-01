@@ -130,6 +130,10 @@
     width: 264px;
     margin-top: 16px;
   }
+  .footer .container {
+    flex-wrap: nowrap;
+    max-width: 1158px;
+  }
   /*------------------------------- Social Media -----------------------*/
   .socail-media {
     width: 208px;
@@ -142,12 +146,23 @@
     line-height: 1.5;
     color: #ffffff;
     margin: 0 auto 16px;
+    display: flex;
+    justify-content: left;
   }
 
   .input-subs {
-    width: 264px;
+    min-width: 264px;
+  }
+  .subscribe {
+    display: block;
+    margin-left: 80px;
   }
   .subs-form {
     display: flex;
+    flex-direction: row;
+  }
+  .subs-btn {
+    margin-top: 0;
+    margin-left: 24px;
   }
 }
