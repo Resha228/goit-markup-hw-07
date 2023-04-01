@@ -2,6 +2,16 @@
   .container {
     max-width: 428px;
   }
+  /*--------------------- Banner -------------------------*/
+  .banner {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+  .banner-title {
+    width: 320px;
+    margin-bottom: 72px;
+    font-size: 36px;
+  }
   .four-section-icon {
     display: none;
   }
@@ -45,8 +55,6 @@
   .team {
     padding-top: 96px;
     padding-bottom: 96px;
-    padding-left: 86px;
-    padding-right: 86px;
   }
   .team-item {
     margin-top: 74px;

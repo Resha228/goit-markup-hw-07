@@ -161,18 +161,17 @@ header {
   margin: 0 auto;
   padding-top: 188px;
   padding-bottom: 188px;
-  width: 1440px;
+  width: 100%;
 }
 .banner-title {
   font-weight: 700;
-  font-size: 56px;
+  font-size: 36px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
-
   margin: 0 auto 48px;
-  width: 496px;
+  width: 100%;
 }
 .banner-btn {
   border: 0px;

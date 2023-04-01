@@ -2,6 +2,16 @@
   .container {
     max-width: 768px;
   }
+  /*--------------------- Banner -------------------------*/
+  .banner {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+  .banner-title {
+    width: 496px;
+    font-size: 56px;
+    margin-bottom: 48px;
+  }
   .four-section {
     padding-top: 96px;
     padding-bottom: 96px;

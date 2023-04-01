@@ -2,6 +2,18 @@
   .container {
     max-width: 1158px;
   }
+  /*--------------------- Banner -------------------------*/
+  .banner {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    width: 1440px;
+  }
+  .banner-title {
+    width: 496px;
+    font-size: 56px;
+    margin-bottom: 48px;
+  }
+
   .four-section-icon {
     background-color: #f4f4fd;
     display: flex;
