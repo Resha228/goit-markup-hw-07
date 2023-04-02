@@ -2,6 +2,13 @@
   .container {
     max-width: 1158px;
   }
+  /* ------------------------Header -------------------*/
+  .container-menu {
+    display: none;
+  }
+  .burger-btn {
+    display: none;
+  }
   /*--------------------- Banner -------------------------*/
   .banner {
     padding-top: 188px;
