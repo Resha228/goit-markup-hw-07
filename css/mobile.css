@@ -2,6 +2,10 @@
   .container {
     max-width: 428px;
   }
+  /* --------------------------- Header ------------------------- */
+  .header-list {
+    display: none;
+  }
   /*--------------------- Banner -------------------------*/
   .banner {
     padding-top: 112px;

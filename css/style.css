@@ -66,11 +66,14 @@ header {
   line-height: 1.33;
   color: #4d5ae5;
 }
-.header-list {
+/* .header-list {
   display: flex;
   margin: 0;
   gap: 40px;
   padding-left: 0;
+} */
+.header-list {
+  display: none;
 }
 
 .header-item {
@@ -148,7 +151,57 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Hamburger button */
-
+/*--------------------- Header Mobile--------------------------- */
+.container-menu {
+}
+.mobile-container {
+}
+.mobile-close-btn {
+}
+.close-btn-icon {
+}
+.mobile-menu {
+}
+.mobile-menu-catalog {
+}
+.mobile-menu-item {
+  list-style-type: none;
+}
+.mobile-menu-link {
+  text-decoration-line: none;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+.mobile-menu-link:hover {
+  color: var(--hover-color);
+}
+.contacts-social {
+}
+.mobile-menu-list {
+  list-style-type: none;
+}
+.mobile-tel {
+}
+.contact-tel {
+  text-decoration-line: none;
+}
+.mobile-mail {
+}
+.contact-mail {
+  text-decoration-line: none;
+}
+.mobile-social-list {
+}
+.mobile-social-item {
+}
+.mobile-social-link {
+}
+.mobile-social-icon {
+}
 /*--------------------- Banner -------------------------*/
 .banner {
   background-color: var(--title-color);
