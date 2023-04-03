@@ -3,8 +3,118 @@
     max-width: 428px;
   }
   /* --------------------------- Header ------------------------- */
+  .header {
+    height: 70px;
+  }
   .header-list {
     display: none;
+  }
+  /*--------------------- Header Mobile--------------------------- */
+  .container-menu {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #ffffff;
+  }
+  .mobile-container {
+    position: relative;
+  }
+  .mobile-close-btn {
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: #e7e9fc;
+    border-color: #2e2f42;
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+  .close-btn-icon {
+  }
+  .mobile-menu {
+  }
+  .mobile-menu-catalog {
+    padding-left: 40px;
+    padding-top: 80px;
+    margin-bottom: 284px;
+    margin-top: 0;
+  }
+  .mobile-menu-item {
+    list-style-type: none;
+    margin-bottom: 40px;
+  }
+  .mobile-menu-link {
+    text-decoration-line: none;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+  }
+  /* .mobile-menu-link:hover {
+    color: var(--hover-color);
+
+  } */
+  .current {
+    color: #404bbf;
+  }
+  .contacts-social {
+  }
+  .mobile-menu-list {
+    list-style-type: none;
+  }
+  .mobile-tel {
+    margin-bottom: 40px;
+  }
+  .contact-tel {
+    text-decoration-line: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #4d5ae5;
+  }
+  .mobile-mail {
+    margin-bottom: 40px;
+  }
+  .contact-mail {
+    text-decoration-line: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .mobile-social-list {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+    display: flex;
+    gap: 56px;
+    max-width: 328px;
+  }
+  .mobile-social-item {
+  }
+  .mobile-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    color: #f4f4fd;
+    border-radius: 50%;
+  }
+  .mobile-social-icon {
+    fill: #f4f4fd;
   }
   /*--------------------- Banner -------------------------*/
   .banner {
