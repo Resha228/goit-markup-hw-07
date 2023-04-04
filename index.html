@@ -60,9 +60,9 @@
         <!-- Hamburger button------->
         <button
           type="button"
-          class="burger-btn"
+          class="burger-btn js-open-menu"
           aria-expanded="false"
-          aria-controls=""
+          aria-controls="mobile-menu"
         >
           <svg class="burger-icon" width="32px" height="22px">
             <use href="./images/symbol-defs-icon.svg#icon-icon-menu"></use>
@@ -71,32 +71,32 @@
         <!-- Hamburger button------->
       </div>
       <!-------------Mobile menu  ------------------->
-      <div class="container-menu" id="">
+      <div class="container-menu is-open js-menu-container" id="mobile-menu">
         <div class="mobile-container">
-          <button type="button" class="mobile-close-btn">
+          <button type="button" class="mobile-close-btn js-close-menu">
             <svg class="close-btn-icon" width="8px" height="8px">
               <use href="./images/symbol-defs-icon.svg#icon-close-button"></use>
             </svg>
           </button>
-          <div class="mobile-menu">
-            <nav>
-              <ul class="mobile-menu-catalog">
-                <li class="mobile-menu-item">
-                  <a class="mobile-menu-link current" href="./index.html"
-                    >Studio</a
-                  >
-                </li>
-                <li class="mobile-menu-item">
-                  <a class="mobile-menu-link" href="./portfolio.html"
-                    >Portfolio</a
-                  >
-                </li>
-                <li class="mobile-menu-item">
-                  <a class="mobile-menu-link" href="">Contacts</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+
+          <nav>
+            <ul class="mobile-menu-catalog">
+              <li class="mobile-menu-item">
+                <a class="mobile-menu-link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mobile-menu-item">
+                <a class="mobile-menu-link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mobile-menu-item margin">
+                <a class="mobile-menu-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
           <div class="contacts-social">
             <address>
               <ul class="mobile-menu-list">
@@ -659,5 +659,12 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

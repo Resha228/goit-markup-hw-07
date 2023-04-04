@@ -169,12 +169,26 @@ header {
 .container-menu {
   width: 100vw;
   height: 100vh;
-  position: fixed;
+
   background-color: #ffffff;
+  top: 0;
+  left: 0;
+  padding: 24px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.container-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  position: fixed;
 }
 .mobile-container {
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
+
 .mobile-close-btn {
   border-radius: 50%;
   border: 1px solid;
@@ -203,6 +217,9 @@ header {
   list-style-type: none;
   margin-bottom: 40px;
 }
+.mobile-menu-item :nth-child(3) {
+  margin-bottom: 0;
+}
 .mobile-menu-link {
   text-decoration-line: none;
   font-weight: 700;
@@ -219,9 +236,11 @@ header {
   color: #404bbf;
 }
 .contacts-social {
+  margin-top: auto;
 }
 .mobile-menu-list {
   list-style-type: none;
+  margin: 0 auto;
 }
 .mobile-tel {
   margin-bottom: 40px;
