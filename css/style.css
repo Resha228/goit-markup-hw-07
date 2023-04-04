@@ -442,6 +442,9 @@ header {
   padding-top: 96px;
   padding-bottom: 96px;
 }
+.team .container {
+  padding: 0;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -460,6 +463,7 @@ header {
   align-items: center;
   padding-left: 0;
   margin: 0 auto;
+  gap: 72px;
 }
 
 .team-item {
@@ -468,7 +472,7 @@ header {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   max-width: 264px;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 
 .team-item img {
@@ -1055,9 +1059,9 @@ header {
   background-position: center;
 }
 .form-label-checkbox span {
-  width: 16px;
+  min-width: 16px;
   height: 16px;
-  border: 1.25px solid #2e2f42;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
   display: flex;
@@ -1067,6 +1071,9 @@ header {
   transition-property: background-color, border, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-label-checkbox a {
+  display: contents;
 }
 .form-checkbox:checked + .form-label-checkbox span {
   background-color: var(--hover-color);
