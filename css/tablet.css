@@ -5,8 +5,12 @@
   /* ------------------------Header -------------------*/
   header {
   }
-  header .container {
+  .header .container {
     height: 72px;
+    margin: auto;
+  }
+  .header-logo {
+    margin-right: 120px;
   }
   .container-menu {
     display: none;
@@ -24,9 +28,33 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding: 16px 0 14px;
     margin-left: auto;
+    line-height: 14px;
+    margin-left: auto;
+  }
+  .header-mail {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    text-decoration-line: none;
+    color: #434455;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-tel {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    text-decoration-line: none;
+    color: #434455;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   /*--------------------- Banner -------------------------*/
   .banner {
