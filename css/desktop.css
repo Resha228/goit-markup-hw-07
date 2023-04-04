@@ -3,6 +3,9 @@
     max-width: 1158px;
   }
   /* ------------------------Header -------------------*/
+  .header .container {
+    margin: 0 auto;
+  }
   .container-menu {
     display: none;
   }
@@ -14,6 +17,34 @@
     margin: 0;
     gap: 40px;
     padding-left: 0;
+  }
+  .header-address .header-list {
+    display: flex;
+    flex-direction: row;
+    padding: 24px 0;
+  }
+  .header-mail {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration-line: none;
+    color: #434455;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration-line: none;
+    color: #434455;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   /*--------------------- Banner -------------------------*/
   .banner {
