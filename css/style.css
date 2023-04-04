@@ -164,28 +164,42 @@ header {
 }
 /*--------------------- Header Mobile--------------------------- */
 .container-menu {
-  width: 100vw;
-  height: 100vh;
+  position: relative;
+  height: 100%;
+  max-height: 796px;
+  width: 100%;
   position: fixed;
-  background-color: #ffffff;
+  z-index: 666;
   top: 0;
   left: 0;
-  z-index: 666;
-  padding: 24px;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 100vmax rgba(0 0 0 / 50%);
   opacity: 0;
-  visibility: hidden;
+  visibility: none;
   pointer-events: none;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-menu.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 .mobile-container {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  max-height: 796px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 24px 40px 24px;
 }
 
 .mobile-close-btn {
@@ -207,9 +221,7 @@ header {
 .mobile-menu {
 }
 .mobile-menu-catalog {
-  padding-left: 40px;
-  padding-top: 80px;
-  margin-bottom: 284px;
+  padding-left: 16px;
   margin-top: 0;
 }
 .mobile-menu-item {
@@ -240,6 +252,7 @@ header {
 .mobile-menu-list {
   list-style-type: none;
   margin: 0 auto;
+  padding-left: 16px;
 }
 .mobile-tel {
   margin-bottom: 40px;
@@ -272,9 +285,12 @@ header {
   padding-bottom: 40px;
   display: flex;
   gap: 56px;
-  max-width: 328px;
+  align-items: center;
+  justify-content: start;
+  padding-left: 16px;
 }
 .mobile-social-item {
+  width: calc((100% - 168px) / 4);
 }
 .mobile-social-link {
   display: flex;
@@ -393,6 +409,9 @@ header {
 .margin {
   margin-bottom: 0;
 }
+.team-item .margin {
+  margin-bottom: 0;
+}
 
 /*-----------------------What are we doing -----------------------*/
 .case {
@@ -435,26 +454,31 @@ header {
 }
 .team-list {
   list-style-type: none;
-  display: block;
-  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-left: 0;
   margin: 0 auto;
 }
+
 .team-item {
   background-color: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 72px;
+  max-width: 264px;
+  margin-bottom: 72px;
 }
+
 .team-item img {
   display: block;
   width: 100%;
   height: auto;
 }
-
+.team-item .margin {
+  margin-bottom: 0;
+}
 .team-user {
   font-weight: 500;
   font-size: 20px;
@@ -873,8 +897,9 @@ header {
   left: 0;
 }
 .modal {
-  width: 408px;
-  min-height: 576px;
+  max-width: 392px;
+  min-height: 586px;
+  width: 100%;
   background-color: #fcfcfc;
   border-radius: 4px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
